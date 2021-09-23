@@ -6,7 +6,7 @@ import { Mountch } from './pages/Mountch/Mountch';
 
 function App() {
     return (
-        <div className="App">
+        <div className="container">
             <Header />
             <Switch>
                 <Route path="/" exact component={Home} />
