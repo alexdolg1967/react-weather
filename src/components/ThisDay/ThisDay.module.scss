@@ -1,1 +1,49 @@
-.this__day{}
+@import '../../styles/variables';
+.this__day{
+	padding: 20px 40px;
+	max-width: none;
+	background: $white;
+	box-shadow: $box-shadow;
+	border-radius: $border-radius;
+	@media (min-width: 768px){
+		padding: 20px;
+		max-width: 400px;
+	}
+}
+.this__day .top__block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+	@media (min-width: 768px){
+		margin-bottom: 30px;
+	}
+	svg{
+		width: 80px;
+		height: 80px;
+		@media (min-width: 768px){
+			width: 120px;
+			height: 120px;
+		}
+	}
+	.temp{
+		font-size: 72px;
+		color: $color-accent;
+		font-weight: 600;
+		@media (min-width: 768px){
+			font-size: 96px
+		}
+	}
+	.day{
+		font-size: 40px;
+		color: $color-lite;
+	}
+}
+.this__day .bottom__block{
+	.time,
+	.city{
+		color: $color-base;
+		font-size: 25px;
+		line-height: 35px;
+	}
+}
