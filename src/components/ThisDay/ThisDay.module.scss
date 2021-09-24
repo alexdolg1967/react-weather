@@ -1,6 +1,7 @@
 @import '../../styles/variables';
 .this__day{
 	padding: 20px 40px;
+	width: 100%;
 	max-width: none;
 	background: $white;
 	box-shadow: $box-shadow;
@@ -19,31 +20,45 @@
 		margin-bottom: 30px;
 	}
 	svg{
-		width: 80px;
-		height: 80px;
+		width: 60px;
+		height: 60px;
+		@media (min-width: 568px){
+			width: 80px;
+			height: 80px;
+		}
 		@media (min-width: 768px){
 			width: 120px;
 			height: 120px;
 		}
 	}
 	.temp{
-		font-size: 72px;
+		font-size: 54px;
 		color: $color-accent;
 		font-weight: 600;
+		@media (min-width: 568px){
+			font-size: 72px
+		}
 		@media (min-width: 768px){
 			font-size: 96px
 		}
 	}
 	.day{
-		font-size: 40px;
+		font-size: 28px;
 		color: $color-lite;
+		@media (min-width: 568px){
+			font-size: 40px;
+		}
 	}
 }
 .this__day .bottom__block{
 	.time,
 	.city{
 		color: $color-base;
-		font-size: 25px;
-		line-height: 35px;
+		font-size: 20px;
+		line-height: 25px;
+		@media (min-width: 568px){
+			font-size: 25px;
+			line-height: 35px;
+		}
 	}
 }

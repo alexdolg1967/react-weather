@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.this__info{
+	position: relative;
+	padding: 20px;
+	width: 100%;
+	max-width: none;
+	background: $white;
+	box-shadow: $box-shadow;
+	border-radius: $border-radius;
+	@media (min-width: 768px){
+		padding: 40px;
+		flex: 1 1 auto;
+	}
+	.items{
+		position: relative;
+		z-index: 2;
+	}
+	.img{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		z-index: 1;
+		object-fit: cover;
+	}
+}

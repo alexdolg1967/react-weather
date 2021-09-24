@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.item{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 2rem;
+	gap: 1rem;
+	&:last-of-type{
+		margin-bottom: 0;
+	}
+	.indicator{
+		width: 38px;
+		height: 38px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #fff;
+		box-shadow: 1px 4px 10px -1px rgba(71,147,255,0.2);
+		border-radius: 50%;
+		&__name{
+			font-size: 18px;
+			color: $color-base;
+		}
+		&__value{
+			font-size: 18px;
+			font-weight: 500;
+			color: $color-lite;
+		}
+	}
+}
