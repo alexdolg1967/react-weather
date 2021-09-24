@@ -4,3 +4,21 @@ $color-light: #000;
 $white: #fff;
 $box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.35);
 $border-radius: 20px;
+
+$body-bg-dark: #0d1117;
+$body-bg-light: #ffffff;
+
+$components-bg-dark: #4f4f4f;
+$components-bg-light: #ffffff;
+
+:root{
+    //body background
+    --body-bg-dark: #{$body-bg-dark};
+    --body-bg-light: #{$body-bg-light};
+    --body-bg-default: var(#{--body-bg-light});
+
+    //components background
+    --components-bg-dark: #{$components-bg-dark};
+    --components-bg-light: #{$components-bg-light};
+    --components-bg-default: var(#{--components-bg-light});
+}

@@ -8,7 +8,7 @@ import { Mountch } from './pages/Mountch/Mountch';
 function App() {
     return (
         <div className="container">
-            <Popup />
+            {/* <Popup /> */}
             <Header />
             <Switch>
                 <Route path="/" exact component={Home} />

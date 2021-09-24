@@ -3,7 +3,7 @@
 	padding: 20px 40px;
 	width: 100%;
 	max-width: none;
-	background: $white;
+	background: var(#{--components-bg-default});
 	box-shadow: $box-shadow;
 	border-radius: $border-radius;
 	@media (min-width: 768px){
