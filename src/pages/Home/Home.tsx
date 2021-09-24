@@ -12,9 +12,11 @@ interface Props {
 export const Home = (props: Props) => {
     return (
         <div className={s.home}>
-            <ThisDay />
-			<ThisDayInfo/>
-			<Days />
+            <div className={s.wrapper}>
+                <ThisDay />
+                <ThisDayInfo />
+            </div>
+            <Days />
         </div>
     )
 }

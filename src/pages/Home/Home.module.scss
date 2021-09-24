@@ -1,11 +1,13 @@
 .home{
 	width: 100%;
-    display: flex;
-	flex-wrap: wrap;
-	gap: 1.5rem;
-	row-gap: 1.5rem;
-	justify-content: space-between;
-	@media (min-width: 768px){
-		flex-wrap: nowrap;
-	}
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        row-gap: 1.5rem;
+        justify-content: space-between;
+        @media (min-width: 768px){
+            flex-wrap: nowrap;
+        }
+    }
 }
