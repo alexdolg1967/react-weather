@@ -1,7 +1,7 @@
 $color-accent: #4793ff;
 $color-base: #939cb0;
 $color-light: #000;
-$color-dark: #000;
+$color-dark: #fff;
 $white: #fff;
 $box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.35);
 $border-radius: 20px;
@@ -12,8 +12,8 @@ $body-bg-light: #ffffff;
 $components-bg-dark: #4f4f4f;
 $components-bg-light: #ffffff;
 
-$card-bg-dark: rgba(71,147,255,0.2);
-$card-bg-light: #2e3835;
+$card-bg-light: rgba(71,147,255,0.2);
+$card-bg-dark: #2e3835;
 
 $card-shadow-dark: 0 3px 20px rgba(147,144,144,0.3);
 $card-shadow-light: 0 3px 20px rgba(5,5,5,0.3);
@@ -41,7 +41,7 @@ $card-shadow-light: 0 3px 20px rgba(5,5,5,0.3);
     --card-shadow-default: var(#{--card-shadow-light});
 	
 	//text
-    --text-dark: #{$color-dark};
-    --text-light: #{$color-light};
-    --text-default: var(#{--text-light});
+    --text-color-dark: #{$color-dark};
+    --text-color-light: #{$color-light};
+    --text-color-default: var(#{--text-color-light});
 }
