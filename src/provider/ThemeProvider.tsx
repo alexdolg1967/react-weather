@@ -1,5 +1,6 @@
 import React, { ReactNode, useState } from 'react'
 import { ThemeContext } from '../Context/ThemeContext'
+import { changeCssRootVariables } from '../model/ChangeCssRootVariables'
 
 interface Props {
 	children: ReactNode;
@@ -11,6 +12,7 @@ export const ThemeProvider = ({children, ...props}: Props) => {
 
 	function changeTheme(theme: string) {
 		setTheme(theme)
+		changeCssRootVariables(theme)
 	}
 
 	return (
