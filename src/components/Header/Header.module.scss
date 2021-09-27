@@ -7,7 +7,7 @@
 	position: fixed;
     left: 0;
     right: 0;
-    background: var(#{--components-bg-default});
+    background: var(#{--body-bg-default});
 	box-shadow: var(#{--card-shadow-default});
     z-index: 3000;
 	@media (min-width: 768px){
