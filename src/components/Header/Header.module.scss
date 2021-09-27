@@ -1,9 +1,15 @@
 @import '../../styles/variables';
 .header{
     font-size: 16px;
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
     display: flex;
     justify-content: space-between;
+	position: fixed;
+    left: 0;
+    right: 0;
+    background: var(#{--components-bg-default});
+	box-shadow: var(#{--card-shadow-default});
+    z-index: 3000;
 	@media (min-width: 768px){
 		font-size: 20px;
 	}
