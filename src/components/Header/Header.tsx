@@ -5,10 +5,7 @@ import Select from 'react-select'
 import { useTheme } from '../../hooks/useTheme'
 import { Theme } from '../../Context/ThemeContext'
 
-interface Props {
-
-}
-
+interface Props {}
 
 export const Header = (props: Props) => {
 
@@ -24,7 +21,7 @@ export const Header = (props: Props) => {
 		control: (styles: any) => ({
 			...styles,
 			background: theme.theme === Theme.DARK ? '#4f4f4f' : 'rgba(71, 147, 255, 0.2)',
-			width: '140px',
+			width: '180px',
 			height: '37px',
 			border: 'none',
 			borderRadius: '10px'
