@@ -1,5 +1,12 @@
 .home{
 	width: 100%;
+	padding-top: 6rem;
+	@media (min-width: 768){
+		padding-top: 7rem;
+	}
+	@media (min-width: 1199px){
+		padding-top: 7.5rem;
+	}
     .wrapper{
         display: flex;
         flex-wrap: wrap;

@@ -44,7 +44,7 @@
 	}
 	.day{
 		font-size: 28px;
-		color: $color-light;
+		color: var(--text-color-default);
 		@media (min-width: 568px){
 			font-size: 40px;
 		}
